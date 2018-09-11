@@ -1,2 +1,97 @@
 /* Importa o arquivo CSS que importa a fonte Ravie */
 @import "fonts/ravie.css";
+
+#cardapio{
+	margin-left: 154px;
+	font-family: Verdana;
+	font-size: 14pt;
+	color: #333;
+	width: 646px;
+	border: 1px solid #aac0ae;
+	background-color: rgba(255,255,255,.2);
+}
+
+#cardapio h3{
+	font-weight: bold; 
+	font-size: 18pt;
+}
+
+#cabecalho h1{
+	font-family: Ravie;
+	font-size: 36px;
+	color: #e90c0c;
+}
+
+#cabecalho h2{
+	font-family: "Trebuchet MS";
+	font-size: 24px;
+	color: #333;
+}
+
+#cabecalho span{
+	color: #d027aa;
+}
+
+#lateral{
+	width: 154px;
+	float: left;
+}
+
+#lateral h2{
+	font-size: 48px;
+	font-family: Verdana;
+	color: #333;
+	font-weight: bold;
+	transform: rotate(-90deg); 	
+}
+
+#recipiente{
+	background-image: linear-gradient(to bottom, #f5f1b2, #4599b2);
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #d3d3d3;
+	position: relative;
+}
+
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+#bolhas{
+	position: relative;
+	right: 20px;
+	bottom: 14px;
+}
+
+#peixe{
+	position: relative;
+	left: -44px;
+}
+
+#siri{
+	position: absolute;
+	top: 17px;
+	left: -10px;
+}
+
+#rodape {
+	text-align: right;
+	margin: 46px 15px 25px;
+}
+
+#ticket{
+	position: fixed;
+	top: 295px;
+	left: -73px;
+	opacity: 0;
+}
+
+#ticket:hover{
+	opacity: 1;
+}
+
+#cabecalho{
+	margin-left: 154px;
+}
