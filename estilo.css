@@ -2,30 +2,36 @@
 @import "fonts/ravie.css";
 
 #cardapio{
-	margin-left: 154px;
+	margin-left: 153px;	
+	padding-bottom: 40px;
+	padding-left: 20px; 
 	font-family: Verdana;
-	font-size: 14pt;
+	font-size: 14px;
 	color: #333;
-	width: 646px;
+	width: 625px;
 	border: 1px solid #aac0ae;
 	background-color: rgba(255,255,255,.2);
+	position: relative;
+	top: -100px;
 }
 
 #cardapio h3{
 	font-weight: bold; 
-	font-size: 18pt;
+	font-size: 18px;
 }
 
 #cabecalho h1{
 	font-family: Ravie;
 	font-size: 36px;
 	color: #e90c0c;
+	padding-left: 20px;
 }
 
 #cabecalho h2{
 	font-family: "Trebuchet MS";
 	font-size: 24px;
 	color: #333;
+	padding-left: 180px;
 }
 
 #cabecalho span{
@@ -34,10 +40,12 @@
 
 #lateral{
 	width: 154px;
-	float: left;
 }
 
-#lateral h2{
+#lateral h2{	
+	position: absolute;
+	top: 165px;
+	left: -40px;
 	font-size: 48px;
 	font-family: Verdana;
 	color: #333;
@@ -52,6 +60,7 @@
 	margin-right: auto;
 	border: 1px solid #d3d3d3;
 	position: relative;
+	height: 800px;
 }
 
 body{
@@ -60,38 +69,53 @@ body{
 }
 
 #bolhas{
+	position: absolute;
+	top:361px;
+	left:41px;
+}
+
+#conteudo{
 	position: relative;
-	right: 20px;
-	bottom: 14px;
 }
 
 #peixe{
 	position: relative;
 	left: -44px;
+	top: 552px;
 }
 
 #siri{
 	position: absolute;
-	top: 17px;
+	top: -131px;
 	left: -10px;
 }
 
 #rodape {
 	text-align: right;
-	margin: 46px 15px 25px;
+	margin-right: 15px;
+	bottom: 25px;
+	right: 15px;
+	position: absolute;
 }
 
 #ticket{
 	position: fixed;
 	top: 295px;
 	left: -73px;
-	opacity: 0;
 }
 
 #ticket:hover{
-	opacity: 1;
+	left: 0px;
 }
 
 #cabecalho{
-	margin-left: 154px;
+	padding-left: 154px;
 }
+
+#cardapio span{
+	float: right;
+	padding-right: 10px;
+}
+ #cardapio br{
+ 	margin-bottom: 10px;
+ }
